@@ -1,12 +1,23 @@
 import Header from "./Header"
 import Footer from "./Footer"
 import  Main  from "./Main"
+import ItemListContainer from "./ItemListContainer"
 
-const App = () => {
+/*  poner adentro del header despues.
+<Main nombre='Rjdoasj'>
+<p>
+ALOJA HIJO DE MAIN
+</p>
+<p>
+HOLA HIJO DE MAIN 2
+</p>
+</Main>*/
+
+const App = (props) => {
     return (
         <>
         <Header/>
-        <Main/>
+        <ItemListContainer/>
         <Footer/>
         </>
     )
@@ -14,3 +25,4 @@ const App = () => {
 
 
 export default App
+
