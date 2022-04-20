@@ -13,6 +13,8 @@ const ItemCount = () => {
         setContador(contador - 1)
         setStock(stock+1)
       }
+      
+      
 
       console.log(stock)
 
@@ -29,6 +31,7 @@ const ItemCount = () => {
     <div>
       <button onClick={handleClick} >click</button>
       <p>contador actual  {contador}</p>
+      <button>Confirmar</button>
       <button onClick={handleClickRest} >click</button>
     </div>
   )
