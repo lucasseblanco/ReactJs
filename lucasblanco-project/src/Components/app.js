@@ -17,7 +17,7 @@ const App = (props) => {
     return (
         <>
         <Header/>
-        <ItemListContainer/>
+        <ItemListContainer  greeting='saludos mortales, les traigo rock'/>
         <Footer/>
         </>
     )
